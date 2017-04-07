@@ -5,14 +5,18 @@
   "Sets
   set showmode
   set nu
-  set background=light
   set expandtab
   set tabstop=2
   set shiftwidth=2
+  set mouse=a 
+	set paste
+	set nowrap
+	set sidescroll=1
   syntax enable
+  
   "Commands
   command Ntt NERDTreeToggle
- 
+  command Artise Artisan serve 
   " set the runtime path to include Vundle and initialize
   set rtp+=~/.vim/bundle/Vundle.vim
   call vundle#begin()
