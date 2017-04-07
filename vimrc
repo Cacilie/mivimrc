@@ -9,10 +9,12 @@
   set tabstop=2
   set shiftwidth=2
   set mouse=a 
-	set paste
-	set nowrap
-	set sidescroll=1
+  set paste
+  set nowrap
+  set sidescroll=1
+  set t_Co=256
   syntax enable
+  colorscheme magellan
   
   "Commands
   command Ntt NERDTreeToggle
