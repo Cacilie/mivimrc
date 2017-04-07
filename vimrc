@@ -9,12 +9,12 @@
   set tabstop=2
   set shiftwidth=2
   set mouse=a 
-  set paste
-  set nowrap
-  set sidescroll=1
-  set t_Co=256
+	set paste
+	set nowrap
+	set sidescroll=1
+	set t_Co=256
   syntax enable
-  colorscheme magellan
+	colorscheme magellan
   
   "Commands
   command Ntt NERDTreeToggle
@@ -38,6 +38,7 @@
   Plugin 'tpope/vim-projectionist'
   Plugin 'noahfrederick/vim-composer'
   Plugin 'noahfrederick/vim-laravel'
+	Plugin 'tpope/vim-fugitive'
   "Plugin 'altercation/vim-colors-solarized'
   "Plugin 'powerline/powerline.git'
   " All of your Plugins must be added before the following line
@@ -54,3 +55,4 @@
   "
   " see :h vundle for more details or wiki for FAQ
   " Put your non-Plugin stuff after this line
+
