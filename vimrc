@@ -16,7 +16,7 @@ set sidescroll=1
 syntax enable
 "colorscheme github
 "LETS
-let g:jsx_ext_required = 0
+let g:jsx_ext_required = 0 
 "Commands
 command Ntt NERDTreeToggle
 command Artise Artisan serve
@@ -26,6 +26,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-eunuch'
+Plugin 'valloric/MatchTagAlways'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
@@ -44,6 +46,7 @@ Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'pangloss/vim-javascript'
 Plugin 'ashisha/image.vim'
 Plugin 'mxw/vim-jsx'
+Plugin 'vimwiki/vimwiki'
 "Plugin 'altercation/vim-colors-solarized'
 "Plugin 'powerline/powerline.git'
 " All of your Plugins must be added before the following line
